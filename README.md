@@ -1,1 +1,2 @@
 # NameTimeTG
+pip install telethon
