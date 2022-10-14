@@ -5,8 +5,8 @@ from telethon import TelegramClient
 from telethon.tl.functions.account import UpdateProfileRequest
 
 
-api_id = config.api_id	# your api_id
-api_hash = config.api_hash	# your api_hash
+api_id = config.api_id
+api_hash = config.api_hash
 client = TelegramClient("anon", api_id, api_hash)
 
 
