@@ -4,10 +4,7 @@ import config
 from telethon import TelegramClient
 from telethon.tl.functions.account import UpdateProfileRequest
 
-
-api_id = config.api_id
-api_hash = config.api_hash
-client = TelegramClient("anon", api_id, api_hash)
+client = TelegramClient("anon", config.API_ID, config.API_HASH)
 
 
 async def main():
